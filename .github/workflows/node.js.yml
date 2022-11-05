@@ -32,6 +32,6 @@ jobs:
         cd server
         npm install
         cd src
-        nodemon app.js
+        # nodemon app.js
     - run: npm run build --if-present
     - run: npm test
